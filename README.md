@@ -6,6 +6,6 @@ Aula de typescript 1
 | -------------  | --- |
 | :sparkles: Nome        | **Typescript-1**
 | :label: Tecnologias | HTML, CSS, TypeScript (tecnologias utilizadas)
-| :rocket: URL         | https://typescript-1.vercel.app/
+
 
 
