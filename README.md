@@ -1,10 +1,10 @@
-# Typescript-1
+# Typescript-2
 
-Aula de typescript 1
+Aula de typescript 2
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Typescript-1**
+| :sparkles: Nome        | **Typescript-2**
 | :label: Tecnologias | HTML, CSS, TypeScript (tecnologias utilizadas)
 
 
