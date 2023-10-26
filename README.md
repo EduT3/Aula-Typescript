@@ -6,6 +6,3 @@ Aula de typescript 3
 | -------------  | --- |
 | :sparkles: Nome        | **Typescript-3**
 | :label: Tecnologias | HTML, CSS, TypeScript (tecnologias utilizadas)
-
-
-
