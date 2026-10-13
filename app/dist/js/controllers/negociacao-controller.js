@@ -50,6 +50,10 @@ export class NegociacaoController {
                 this.negociacoes.adiciona(negociacao);
             }
             this.negociacoesView.update(this.negociacoes);
+            this.mensagemView.update('Importação concluída.');
+        })
+            .catch(() => {
+            this.mensagemView.update('Não foi possível importar. Verifique se a API local está em execução.');
         });
     }
     ehDiaUtil(data) {

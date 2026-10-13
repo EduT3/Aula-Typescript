@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Negociações</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        body { padding: 2rem 1rem; background: #f4f7fb; }
+        .form { max-width: 40rem; margin: 2rem auto; padding: 1.5rem; border-radius: .75rem; background: white; }
+        #negociacoesView { overflow-x: auto; }
+        button:focus-visible, input:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 3px; }
+    </style>
 </head>
 
 <body class="container">
     
     <h1 class="text-center">Negociações</h1>
     
-    <div id="mensagemView"></div>
+    <div id="mensagemView" role="status" aria-live="polite"></div>
     
     <form class="form">
         
@@ -27,12 +33,12 @@
         
         <div class="form-group">
             <label for="valor">Valor</label>
-            <input id="valor" type="number" class="form-control"  min="0.01" step="0.01" value="0.0" required />
+            <input id="valor" type="number" class="form-control"  min="0.01" step="0.01" value="0.01" required />
         </div>
         
         <button class="btn btn-primary" type="submit">Incluir</button>
         <button 
-            id="botao-importa" 
+            id="botao-importa" type="button" 
             class="btn btn-primary">
             importar
         </button>
